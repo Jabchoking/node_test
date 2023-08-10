@@ -28,11 +28,11 @@ const Join = memo(() => {
             displayName : cruser.user.multiFactor.user.displayName,
             uid : cruser.user.multiFactor.user.uid
         };
-        useEffect(()=>{
+        
             setTimeout(() => {
                 dispatch(joindudot(body))
             }, 200);
-        },[])
+        
     }
 
 

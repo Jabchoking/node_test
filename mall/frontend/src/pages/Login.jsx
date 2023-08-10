@@ -8,7 +8,6 @@ const Login = memo(() => {
     const nav = useNavigate()
     const login = e => {
         e.preventDefault()
-
     }
     const join = e => {
         e.preventDefault()
